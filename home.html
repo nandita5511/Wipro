@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,25 +6,49 @@
     <title>Home Page</title>
     <style>
         body {
-            text-align: center;
             font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
         }
+        /* Navigation Bar */
+        .navbar {
+            background-color: #333;
+            padding: 10px 0;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+       
         .container {
             margin-top: 100px;
         }
         img {
-            width: 80px;
+            width: 80px; 
             margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
 
+    
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="#">Contact</a> 
+    </div>
+
     <div class="container">
         
         <img src="logo.png" alt="Logo"> 
 
-       
+        
         <h1>Hii Nandita Singh</h1>
 
        
@@ -39,7 +63,10 @@
             <button type="submit">Submit</button>
         </form>
 
-           </div>
+       
+    </div>
 
 </body>
 </html>
+
+
