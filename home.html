@@ -3,18 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Page</title>
+    <title>Home Page</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 100px;
+        }
+        img {
+            width: 80px; /* Adjust size of logo */
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h2>Enter Your Details</h2>
-    <form action="about.html" method="GET">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+    <div class="container">
+        <!-- Logo -->
+        <img src="logo.png" alt="Logo"> <!-- Replace with your actual logo file -->
 
-        <button type="submit">Submit</button>
-    </form>
+        <!-- Welcome Message -->
+        <h1>Hii Nandita Singh</h1>
+
+        <!-- Form -->
+        <h2>Enter Your Details</h2>
+        <form action="about.html" method="GET">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+           </div>
+
 </body>
 </html>
